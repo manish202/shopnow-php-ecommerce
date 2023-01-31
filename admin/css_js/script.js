@@ -1,0 +1,11 @@
+$(function(){
+    $('.hi-admin').on('click',function(){
+        $('.user-options').toggle();
+    });
+    $('.watch').click(function(){
+        $('.login-popup').show();
+    });
+    $('.close').click(function(){
+        $('.login-popup').hide();
+    });
+});
